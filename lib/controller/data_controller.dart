@@ -6,6 +6,7 @@ import 'package:riverpod_test/model/data_model.dart';
 
 final getDataFuture = ChangeNotifierProvider((ref) => GetDataFromApi());
 
+
 class GetDataFromApi extends ChangeNotifier {
   List dataModelList = [];
 
